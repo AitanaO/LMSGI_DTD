@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id="a1">
+            <nom>Dwayne Johanson</nom>
+            <edat>52</edat>
+        </actor>
+        <actor id="a2">
+            <nom>Katie McGrath</nom>
+            <edat>41</edat>
+        </actor>
+        <actor id="a3">
+            <nom>Eduard Fernández</nom>
+            <edat>60</edat>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="b1">
+            <titol idioma="espanyol">El 47</titol>
+            <director>Marcel Barrena</director>
+            <any>2024</any>
+            <actors>
+                <actor_ref ref="a3"/>
+            </actors>
+        </pelicula>
+        <pelicula id="b2">
+            <titol idioma="angles">Red One</titol>
+            <director>Jake Kasdan</director>
+            <any>2024</any>
+            <actors>
+                <actor_ref ref="a1"/>
+            </actors>
+        </pelicula>
+        <pelicula id="b3">
+            <titol idioma="angles">King Arthur: Legend of the Sword</titol>
+            <director>Guy Ritchie</director>
+            <any>2017</any>
+            <actors>
+                <actor_ref ref="a2"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="b3"></recomanacio>
+    </llista_recomanacions_pelicules>
+</cataleg>
